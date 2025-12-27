@@ -1,0 +1,25 @@
+Q. How does PHP work internally?
+>> PHP works on a request-response model. When a client requests a PHP file, the web server passes it to the PHP engine, which executes the code and returns HTML/output to the browser.
+Flow -> Browser -> Web Server (Apache/Nginx) -> PHP Engine -> Response
+
+Q. Is PHP compiled or interpreted?
+>> PHP is an interpreted language. Internally, it compiled into bytecode and then executed.
+
+Q. Difference between 'echo' and 'print'.
+>> 'echo' is faster than 'print'. 'echo' can output multiple values whereas 'print' outputs only one value. 'echo' doesn't have return value whereas 'print' returns 1.
+
+Q. What happens when a PHP file is requested?
+>> 1. Browser sends a request
+   2. Server forwards it to PHP engine
+   3. PHP code executes
+   4. Output (HTML/JSON) is returned
+   5. Browser display result
+
+Q. Can PHP run without a server?
+>> Yes, PHP can run without a web server using CLI (Command Line Interface)
+
+Q. Differnce between 'include' and 'require'
+>> 'include' give warning on failure and script continues whereas 'require' give fatal error and script stops.
+
+Q. Is PHP case-sensitive?
+>> Variables are case-sensitive whereas functions & keywords are case-insensitive
