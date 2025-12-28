@@ -1,0 +1,50 @@
+> Data types - string, int, float, bool, array, object, null, resource
+> var_dump() - dumps the data type and the value
+> strlen(string) - return the length of the string
+> str_word_count(string) - count the number of word in the string
+> str_contains(string, substring) - checks if a string contains a specific substring
+> strpos(string, text) - returns the character position of the first match, otherwise return false
+> strtoupper() - returns a string in upper case
+> strtolower() - returns a string in lower case
+> str_replace(old, new, string) - replaces some characters with some other characters in a string
+> strrev(string) - reverse a string
+> trim() - removes any whitespaces from the beginning or the end
+> explode(separator, string) - splits a string into an array
+> substr(string, start, length) - used to extract a part of a string
+> is_int() - checks if the type of a variable is integer
+> is_float() - checks if the type of a variable is float
+> is_nan() - checks if a value is not a number
+> is_numeric() - check whether a variable is a number or a numeric string
+> intVal() - used to get the integer value of a variable
+> __CLASS__ - If used inside a class, the class name is returned
+> __DIR__ - returns the directory name of the file
+> __FILE__ - returns the full path and the name of the file
+> __FUNCTION__ - If inside a function, the function name is returned
+> __LINE__ - returns the current line number
+> __METHOD__ - If used inside a function that belongs to a class, both class and function name is returned
+> __NAMESPACE__ - If used inside a namespace, the name of the namespace is returned
+> __TRAIT__ - If used inside a trait, the trait name is returned
+> [] - adds a single item to the end of an array
+> array_push() - adds one or more items to the end of an array
+> array_unshift() - adds one or more items to the beginning of an array
+> array_merge() - merges two or more arrays
+> array_splice() - removes a portion of the array starting from a start position and length
+> unset() - removes the element associated with a specific key
+> array_diff() - remove items from an associative array
+> array_pop() - removes the last array item
+> array_shift() - removes the first array item
+> sort() - sorts an indexed array in ascending order
+> rsort() - sorts an indexed array in descending order
+> asort() - sorts an associative array in ascending order, according to the value
+> ksort() - sorts an associative array in ascending order, according to the key
+> arsort() - sorts an associative array in descending order, according to the value
+> krsort() - sorts an associative array in descending order, according to the key
+> $GLOBALS - An array that contains references to all global variables of the script
+> $_SERVER - Holds information about the web server including headers, paths, and script locations
+> $_REQUEST - An array containing data from $_GET, $_POST, and $_COOKIE superglobals
+> $_POST - An array of variables received via the HTTP POST method
+> $_GET - An array of variables received via the HTTP GET method
+> $_FILES - An array of items uploaded to the current script via the HTTP POST method (filename, type, size)
+> $_ENV - Holds environment variables passed to the current script
+> $_COOKIE - An array of variables passed to the current script via HTTP Cookies
+> $_SESSION - An array of session variables

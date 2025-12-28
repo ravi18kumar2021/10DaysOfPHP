@@ -45,5 +45,3 @@ I already have prior experience with backend development (Python, Flask, Django)
 | Day 08 | REST APIs in PHP |
 | Day 09 | Security (XSS, CSRF, hashing) |
 | Day 10 | Final project + interview revision |
-
----
