@@ -1,0 +1,32 @@
+Q. What does 'HTTP is stateless' mean?
+>> HTTP is stateless, meaning that the server doesn't remember the previous requests from the same client. Each request is independent unless state is maintained using cookies or sessions.
+
+Q. What is a cookie?
+>> A cookie is a small key-value pair stored in the user's browser. It is used for remembering user preferences, track sessions or analytics.
+
+Q. What is a session?
+>> A session stores user data on the server (usually in files or memory) and identifies the user using a session ID.
+
+Q. Difference between session and cookie.
+>> Session stored data on the server, whereas cookie stored data on the browser. Session is more secure than cookie. Session is used for authentication, whereas cookie is used for preferences.
+
+Q. How does login work internally?
+>> 1. User submits credentials.
+   2. Server validates them
+   3. Session is created
+   4. User ID is stored in session
+
+Q. How does PHP identify a user's session?
+>> Using a unique session ID, usually stored in a cookie (PHPSESSID).
+
+Q. Can sessions work without cookies?
+>> Yes, but it's not recommended. Session ID can be passed via URL, which is insecure.
+
+Q. What is session hijacking?
+>> When an attacker steals a valid session ID and impersonates a user.
+
+Q. How can you make sessions more secure?
+>> Using HTTPS, regenerating session ID and set secure cookie flags.
+
+Q. What is session fixation?
+>> It is an attack where an attacker forces a user to use a known session ID. We can fix it by regenerating session ID after login.
