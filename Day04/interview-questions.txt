@@ -1,0 +1,37 @@
+Q. What is OOP?
+>> OOP (Object Oriented Programming) is a programming paradigm that organises code into classes and objects to improve reusability and maintainability.
+
+Q. What is a class?
+>> Class is a blueprint that defines properties and methods of an object.
+
+Q. What is an object?
+>> An object is an instance of a class.
+
+Q. Why is OOP used in backend development?
+>> OOP helps organize complex backend logic into reusable, testable and maintainable components.
+
+Q. What are the main OOP principles?
+>> Inheritance, Polymorphism, Encapsulation and Abstraction.
+
+Q. What is encapsulation?
+>> Encapsulation means hiding internal data and exposing only what is necessary using access modifiers.
+
+Q. What are access modifiers in PHP?
+>> public - accessible everywhere
+   protected - accessible inside class and child classes
+   private - accessible only inside the class
+
+Q. What is a constructor?
+>> A constructor is a special method that runs automatically when an object is created.
+
+Q. What is $this in PHP?
+>> $this refers to the current object instance.
+
+Q. What is inheritance?
+>> Inheritance allows a class to acquire properties and methods of another class.
+
+Q. What is method overriding?
+>> When a child class provides its own implementation of a parent class method.
+
+Q. What is polymorphism?
+>> Polymorphism allows different classes to implement the same method in differnt ways.
