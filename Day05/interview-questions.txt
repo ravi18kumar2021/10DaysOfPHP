@@ -1,0 +1,26 @@
+Q. What is an abstract class?
+>> An abstract class is a class that cannot be instantiated and may contain abstract methods and concrete methods.
+
+Q. Why do we use abstract classes?
+>> To provide a base class with common behaviour while forcing child classes to implement specific methods.
+
+Q. What is an interface?
+>> An interface defines a contract that a class must follow. It contains only method declarations. E.g. Payment gateways, logging systems, notification services, database drivers.
+
+Q. When should you use an interface?
+>> When you want to define what a class must do, not how it does it.
+
+Q. What is a trait?
+>> A trait is a mechanism for code reuse that allows sharing methods between classes. It is used to solve the multiple inheritance problem and avoid code duplication. E.g. Logging, authentication helpers, utility methods.
+
+Q. What is polymorphism?
+>> Polymorphism allows different classes to implement the same method in different ways.
+
+Q. What is dependency injection (DI)?
+>> Dependency Injection is passing dependencies to a class instead of creating them inside the class. It reduces tight coupling, improves testability and makes code flexible.
+
+Q. What is loose coupling?
+>> Classes depend on abstractions (interfaces) instead of concrete implementations.
+
+Q. What is tight coupling?
+>> When a class directly depends on concrete class, making changes difficult.
