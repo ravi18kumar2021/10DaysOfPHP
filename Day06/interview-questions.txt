@@ -1,0 +1,29 @@
+Q. What is PDO?
+>> PDO (PHP Data Objects) is a database access layer that provides a consistent interface to work with databases securely.
+
+Q. Why should we use PDO instead of MySQLi?
+>> 1. Support prepared statements
+   2. Prevents SQL injection
+   3. Works with multiple databases
+   4. Cleaner, OOP-friendly design
+
+Q. Difference between query() and prepare() in PDO.
+>> query() executes directly whereas prepare() prepares first. query() is not safe for input whereas prepare() is safe for input. query() doesn't have binding whereas prepare() supports binding.
+
+Q. What is SQL injection?
+>> A security vulnerability where malicious SQL code is injected through user input.
+
+Q. What is DSN in PDO?
+>> DSN (Data Source Name) contains database connection information.
+
+Q. How do you structure database code in PHP (OOP)?
+>> Database connection in one class, queries in repository classes and business logic in service class.
+
+Q. Why inject PDO into classes?
+>> To reduce tight coupling and improve testibility (DIP).
+
+Q. What is the best way to handle DB credentials?
+>> Store them in a separate config file or environment variables.
+
+Q. PDO vs ORM?
+>> PDO is low-level DB access whereas ORM abstract DB logic further. PDO gives more control and is lighter.
