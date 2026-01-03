@@ -1,0 +1,51 @@
+Q. What is a CRUD application?
+>> A CRUD application allows users to create, read, update and delete data from a database.
+
+Q. Why is CRUD important in backend development?
+>> Almost every backend system manages data and CRUD represents the basic operations required to interact with databases.
+
+Q. How do you implement CRUD in PHP?
+>> 1. HTML forms
+   2. PHP for request handling
+   3. MySQL database
+   4. PDO prepared statements
+   5. OOP for structure
+
+Q. What is the flow of a CRUD operation?
+>> Form -> PHP -> Validation -> Repository -> PDO -> MySQL -> Response
+
+Q. How do you prevent SQL injection in CRUD?
+>> By using PDO prepared statements instead of raw SQL queries.
+
+Q. What is the role of PDO in CRUD?
+>> PDO handles secure database connections and executes SQL queries safely using prepared statements.
+
+Q. Why should CRUD code use OOP?
+>> OOP helps in:
+   1. code reuse
+   2. better structure
+   3. maintainability
+   4. separation of concerns
+
+Q. What is a repository in CRUD?
+>> A repository handles all database queries related to a specific entity.
+
+Q. Why separate Database and Repository classes?
+>> To follow Single Responsibility Principle - DB connection and queries should not be mixed.
+
+Q. How do you handle form submission in CRUD?
+>> Using $_POST for form data and validating input before database operations.
+
+Q. What validations should be done in CRUD?
+>> 1. Required fields check
+   2. Email format validation
+   3. Data type validation
+
+Q. What happens when a user submits a form?
+>> PHP receives data -> validates it -> executes DB query -> redirects or displays result.
+
+Q. What improvements can be made to a basic CRUD app?
+>> 1. Add authentication
+   2. Add pagination
+   3. Improve validation
+   4. Add security features

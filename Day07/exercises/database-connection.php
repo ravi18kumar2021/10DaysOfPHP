@@ -16,7 +16,7 @@ class Database {
             die('Database Error : ' . $e->getMessage());
         }
     }
-    
+
     public function getConnection() {
         return $this->conn;
     }
