@@ -1,0 +1,25 @@
+Q. What is a REST API?
+>> A REST API is a backend service that communicates over HTTP and exchanges data using JSON, following REST principles.
+
+Q. Difference between a Web App and an API.
+>> A Web App returns HTML whereas an API return JSON. A Web App is based on browser whereas an API is used by frontend or mobile apps.
+
+Q. What HTTP methods are used in REST API?
+>> 1. GET - Fetch data
+   2. POST - Create data
+   3. PUT - Update data
+   4. DELETE - Remove data
+
+Q. What is the role of HTTP status codes?
+>> Status codes tell the client about the result of the request. Examples:
+   1. 200 - OK
+   2. 201 - Created
+   3. 400 - Bad request
+   4. 404 - Not found
+   5. 500 - Server error
+
+Q. How do you connect REST API with database?
+>> Using PDO and repository classes to execute CRUD operations and return JSON responses.
+
+Q. What is statelessness?
+>> Each request contains all required information. The server does not store client state.
