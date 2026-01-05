@@ -1,0 +1,56 @@
+Q. How do you store passwords securely in PHP?
+>> By using password_hash() function to hash passwords before sending them to store in the database.
+
+Q. How do you verify a password during login?
+>> Using password_verify() function
+
+Q. Difference between hashing and encryption.
+>> Hashing is one way whereas encryption is two-way. Hashing cannot be reversed whereas encryption can be decrypted. Hashing is used for passwords whereas encryption is used for data storage.
+
+Q. What is SQL injection?
+>> An attack where malicious SQL code is injected through user input to manipulate database queries.
+
+Q. How do you prevent SQL injection in PHP?
+>> By using PDO prepared statements with bound parameters.
+
+Q. What is XSS (Cross-Site Scripting)?
+>> An attack where malicious JavaScript is injected into web pages through user input.
+
+Q. How do you prevent XSS in PHP?
+>> By escaping output using htmlspecialchars() function.
+
+Q. What is CSRF?
+>> Cross-Site Request Forgery forces authenticated users to perform unwanted actions.
+
+Q. How do you prevent CSRF attacks?
+>> By using CSRF tokens and validating them on form submission.
+
+Q. What is a CSRF token?
+>> A random token stored in session and validated during POST requests.
+
+Q. What is session fixation?
+>> An attack where an attacker forces a user to use a known session ID.
+
+Q. How do you prevent session fixation?
+>> By regenerating session ID after login.
+
+Q. How do you secure PHP sessions?
+>> Regenerating session ID, use httponly cookies and destroy session on logout.
+
+Q. What is input validation?
+>> Ensuring user input is correct, safe and expected before processing.
+
+Q. Difference between validation and sanitization.
+>> Validation checks correctness whereas sanitization cleans the data. Validation accepts or reject whereas sanitization modifies the data.
+
+Q. Why should error messages not expose details?
+>> Detailed errors can leak sensitive system or database information.
+
+Q. What is HTTPS and why is it important?
+>> HTTPS encrypts data in transit, protecting credentials from interception.
+
+Q. What security measures do you take in login system?
+>> Password hashing, prepared statements, session regeneration and input validation.
+
+Q. What are the most common PHP security mistakes?
+>> Storing plain-text passwords, using raw SQL queries, not validating input and no CSRF protection.
